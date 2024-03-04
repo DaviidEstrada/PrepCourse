@@ -4,63 +4,77 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weasel Project</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <img src="./Benner.jpg" />
-      <h1>Mi Proyecto Web</h1>
-      <span>Home</span>
-      <span>Proyecto</span>
-      <span>Mis habilidades</span>
+      <div id="banner">
+        <img src="Benner.jpg" />
+      </div>
+      <h1 class="title">Mi Proyecto Web</h1>
+
+      <div class="tarjetas">
+        <div class="logos">
+          <h3 class="subtitulos">HTML</h3>
+          <img src="html.png" />
+        </div>
+        <div class="logos">
+          <h3 class="subtitulos">CSS</h3>
+          <img src="css.png" />
+        </div>
+        <div class="logos">
+          <h3 class="subtitulos">JavaScript</h3>
+          <img src="js.png" />
+        </div>
+      </div>
     </header>
-    <hr />
+
     <main>
       <section>
-        <article>
-          <h2>Proyecto</h2>
-          <div>
-            <p>
-              En esta web estoy poniendo en practica mis conocimientos en HTML,
-              CSS y JavaScript
-            </p>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id
-              explicabo vero odio ad! Reiciendis corrupti, fugiat vel aspernatur
-              dignissimos atque tenetur maiores commodi dolorem! Cupiditate
-              nostrum sequi optio architecto excepturi.
-            </p>
+        <div class="contenedores">
+          <div class="Stitle">
+            <h2>Proyecto</h2>
+            <div>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id
+                explicabo vero odio ad! Reiciendis corrupti, fugiat vel
+                aspernatur dignissimos atque tenetur maiores commodi dolorem!
+                Cupiditate nostrum sequi optio architecto excepturi.
+              </p>
+            </div>
+            <h2>Objetivo del proyecto</h2>
+            <ol>
+              <li>Mejorar en HTML</li>
+              <li>Mejorar en CSS</li>
+              <li>Aprender Js</li>
+            </ol>
           </div>
-          <h2>Objetivo del proyecto</h2>
-          <ol>
-            <li>Mejorar en HTML</li>
-            <li>Mejorar en CSS</li>
-            <li>Aprender Js</li>
-          </ol>
-        </article>
-        <hr />
-        <article>
-          <h2>Mis habilidades</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. In deleniti
-            quaerat impedit totam pariatur quo, at iste soluta tempore optio ad
-            similique quam neque distinctio blanditiis est, saepe repudiandae
-            cupiditate.
-          </p>
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-          </ul>
-        </article>
-        <hr />
+
+          <div class="Stitle">
+            <h2>Mis habilidades</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In
+              deleniti quaerat impedit totam pariatur quo, at iste soluta
+              tempore optio ad similique quam neque distinctio blanditiis est,
+              saepe repudiandae cupiditate.
+            </p>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
+        </div>
       </section>
     </main>
     <footer>
       <section>
-        <h3>Contacto</h3>
-        <p>Footer de mi web</p>
-        <span>Enlace 1</span>
-        <span>Enlace 2</span>
+        <div class="Ft">
+          <h3>Contacto</h3>
+          <a href="">Instagram</a>
+          <a href="">Facebook</a>
+        </div>
       </section>
     </footer>
   </body>
