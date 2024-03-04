@@ -21,7 +21,8 @@ body {
   justify-content: center;
 }
 #banner > img {
-  border-radius: 13px;
+  width: 700px;
+  border-radius: 5px;
 }
 
 .logos {
@@ -56,6 +57,7 @@ body {
 .contenedores {
   width: 50vw;
   margin: auto;
+  display: flex;
 }
 
 .Stitle > h2 {
@@ -74,7 +76,6 @@ body {
 .Ft {
   background-color: rgb(0, 131, 160);
   font-size: 20px;
-  border: 2px solid black;
   border-radius: 8px;
   margin: 0.3em;
   padding: 0.3em 0.3em 0.3em 0.3em;
