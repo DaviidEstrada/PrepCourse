@@ -66,6 +66,7 @@ body {
   width: 50vw;
   margin: auto;
   display: flex;
+  justify-content: center;
 }
 
 .Stitle > h2 {
