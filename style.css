@@ -80,6 +80,7 @@ body {
 .Stitle > ul {
   padding: 15px;
 }
+
 .Ft {
   background-color: rgb(0, 131, 160);
   font-size: 20px;
@@ -89,9 +90,14 @@ body {
   display: flex;
   justify-content: space-evenly;
 }
+.Ft > a {
+  border: 2px solid transparent;
+  border-radius: 0.3em;
+  transition: 1s;
+}
 .Ft > a:hover {
-  border-radius: 0.2em;
-  background-color: rgb(0, 117, 144);
+  border-radius: 0.3em;
+  border: 2px solid white;
 }
 .Stitle:hover {
   border-radius: 15px;
